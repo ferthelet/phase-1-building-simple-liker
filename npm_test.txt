@@ -1,0 +1,25 @@
+
+> javascript-lab@1.0.0 test
+> mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json
+
+
+
+  main.js
+    1) contains a hidden modal
+
+
+  0 passing (274ms)
+  1 failing
+
+  1) main.js
+       contains a hidden modal:
+
+      AssertionError: expected null to not equal null
+      + expected - actual
+
+
+      at Context.<anonymous> (test/indexTest.js:13:26)
+      at process.processImmediate (node:internal/timers:476:21)
+
+
+
